@@ -35,7 +35,7 @@ function Guest({setShowCounter, showCounter, setShowList}){
             setAdultValue(adultValue - 1);
 
         } else if(countType === 'Children' && childrenValue > 0){
-            setChildrenValue(childrenValue - 1)
+            setChildrenValue(childrenValue -  1)
         }
      } 
 
